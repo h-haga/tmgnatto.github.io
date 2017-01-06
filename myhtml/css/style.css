@@ -168,6 +168,23 @@ main .titles {
   display: none;
 }
 
+.img {
+  text-align: center;
+}
+.img img {
+  width: 400px;
+}
+
+.skills li {
+  counter-increment: cnt;
+  list-style: none;
+}
+.skills li:before {
+  content: "2-" counter(cnt) ".";
+  display: inline-block;
+  padding-right: 10px;
+}
+
 .main-swipers .swiper-container .swiper-slide {
   box-sizing: border-box;
   padding: 40px;

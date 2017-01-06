@@ -7,7 +7,9 @@
     <meta name="keywords" content="html,スキル,環境">
     <link rel="shortcut icon" href="./img/me.png">
     <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/nibblersimple.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
   <body>
     <main>
@@ -26,18 +28,10 @@
             <div class="swiper-slide"></div>
             <div class="swiper-slide"></div>
             <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
           </div>
         </div>
         <div class="swiper-container main-swiper-back-1">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
-            <div class="swiper-slide"></div>
             <div class="swiper-slide"></div>
             <div class="swiper-slide"></div>
             <div class="swiper-slide"></div>
@@ -68,14 +62,14 @@
             <div class="swiper-slide">
               <h2>もくじ</h2>
               <ol>
-                <li>全体の概要</li>
+                <li>はじめに</li>
                 <li>使ってるスキルや環境など</li>
                 <li>まとめ</li>
               </ol>
-              <p class="description">今日の流れです。初めに大まかな概要から入って、その後実際に使っているものの紹介します。最後に全体のまとめです。まとめといっても最初の概要とほぼ同じです。</p>
+              <p class="description">今日の流れです。初めに大まかな概要から入って、その後実際に使っているものの紹介をします。最後に全体のまとめです。まとめといっても最初の概要とほぼ同じです。</p>
             </div>
             <div class="swiper-slide">
-              <h2>1.全体の概要</h2>
+              <h2>1.はじめに</h2>
               <ul class="slide-features-list">
                 <li>特に最新のやり方ではない。（むしろ古い）</li>
                 <li>jsのフレームワークとか使わない。</li>
@@ -83,35 +77,39 @@
                 <li>ローカルサーバーにて作成。</li>
               </ul>
             </div>
+<!--
             <div class="swiper-slide">
               <h3>特に最新のやり方ではない。（むしろ古い）</h3>
               <p>私の使用している環境は古いです。Sublime Text 2という一昔前に流行ったテキストエディタを使用しています。ナウいのはSublime Text 3とかAtomとかVisual Studio CodeとかBracketsとかそういうやつな気がします。いずれそっちに移って行きたい気持ちでいっぱいです。</p>
             </div>
             <div class="swiper-slide">
               <h3>jsのフレームワークとか使わない。</h3>
-              <p>デザインという面だけに特化するのであればそもそもほとんど使いません。アニメーションをあれしたいなって時にJavaScriptでもってあーだこーだする時くらいです。</p>
+              <p>デザインという面だけに特化するのであればそもそもほとんど使いません。アニメーションをあれしたいなって時にjQueryでもってあーだこーだする時くらいです。そもそもどこかに色々落ちているのでそれを使えばそこそこなものができちゃいます。</p>
             </div>
             <div class="swiper-slide">
               <h3>Compass含めたSassは使う。</h3>
-              <p>CompassだのSassだのは簡単に言えばCSSをより便利にしてくれるものです。使うとコーディング時間を短縮してくれます。</p>
+              <p>CompassだのSassだのは簡単に言えばCSSをより便利にしてくれるものです。使うとコーディングを短縮してくれます。</p>
             </div>
             <div class="swiper-slide">
               <h3>ローカルサーバーにて作成。</h3>
               <p>AjaxとかWordPressとか使う際に便利かなと思いました。あとWi-Fiが同じな人に対してスマホなんかでさっと見せる時にも便利です。別にすぐアップしちゃうよっていう場合は特に必要ないです。</p>
             </div>
+ -->
             <div class="swiper-slide">
               <h2>2.使っているスキルや環境など</h2>
-              <ul class="slide-features-list">
+              <p class="description">ここが今回のお話のメイン部分です。以下のように説明していきます。</p>
+              <ol class="skills">
                 <li>Sublime Text 2</li>
                 <li>Sass</li>
                 <li>Prepros</li>
                 <li>MAMP</li>
                 <li>Photoshop/Illustrator/Sketch</li>
-              </ul>
+              </ol>
             </div>
             <div class="swiper-slide">
-              <h3>Sublime Text 2</h3>
-              <p>心持ち軽いし、プラグイン豊富だしコーディングの作業量を大分軽減してくれる優れものです。オススメのプラグインをいくつかピックアップしてみます。</p>
+              <h3>2-1.Sublime Text 2</h3>
+              <p>心持ち軽いし、プラグイン豊富だし、コーディングの作業量を大分軽減してくれる優れものです。オススメのプラグインをいくつかピックアップしてみます。</p>
+              <div class="img"><img src="img/sublime2.png" alt="Sublime Text 2のイメージ"></div>
               <p class="description">エディタの最大手はおそらくDreamweaverかなと思います。転職のスキルに書く欄にもこれがあったし。ブラウザで言うところのIEみたいなものだと勝手に思ってます。今のDreamweaverがどうだかはわからないですが、重いしカスタマイズしにくいし、もっと他にいいのないかなって思ったのがきっかけでした。</p>
             </div>
             <div class="swiper-slide">
@@ -131,7 +129,7 @@
               <p class="description">とりあえずこれ使えばそこそこコーディングは早くなるんじゃないかな・・・と思います。しかしながら、実際のところ慣れてしまえばなんだっていいと言う思っちゃったりします。上で話したように就活サイトのスキルシート欄にはDreamweaverしかエディタ無いですし。前職のDreamweaver使いにSublime Text 2の良さを力説したところで、「あ、そうなんだ。いいかも。」と言ったきり、それには乗り換えることはありませんでした。</p>
             </div>
             <div class="swiper-slide">
-              <h3>Sass</h3>
+              <h3>2-2.Sass</h3>
               <p>便利です。何が便利なのかと言うと</p>
               <ul>
                 <li>見やすい</li>
@@ -139,18 +137,18 @@
                 <li>コードの短縮ができる</li>
                 <li>計算してくれる</li>
               </ul>
-              <p>などなど、便利がいいです。</p>
+              <p>などなど、自分でコードを打つ量を大分減らしてくれます。</p>
             </div>
             <div class="swiper-slide">
-              <h3>Prepros</h3>
+              <h3>2-3.Prepros</h3>
               <p>Sassは一旦CSSに変換しないと使うことはできません。じゃあその変換はどうやるんだ？ってなった時、ターミナルやコマンドプロンプトというプログラム打ち込む画面であれやこれやをする必要があるんです。これが面倒臭い。もっと簡単にチョチョっとできるものは無いかと思ったらありました。Preprosです。こいつを使えば面倒な作業は全てこいつがやってくれます。ファイルの圧縮からスプライト画像の作成まで。デザイナーはこれ使えばプログラミング的なことは必要ありませんよ。</p>
             </div>
             <div class="swiper-slide">
-              <h3>MAMP</h3>
+              <h3>2-4.MAMP</h3>
               <p>出来上がったものをアップせずに素早くチェックしたい。chromeでua変えたりしたい。なんてことがよくあります。通常chromeはajaxとかそういうやつはローカルファイルでは動かなくなっています。（そういうの使わない場合は特に支障ありません。）だったらはじめからサーバにアップした状況でやればいいと思ったのですが、noindexとか色々あったりするのでアップするまではしたく無い。そういう感じです。このような状況においてこのMAMPはインストールしてはい、はいとしていくだけですぐさまローカルサーバーを構築してくれます。非常にいいやつです。</p>
             </div>
             <div class="swiper-slide">
-              <h3>Photoshop/Illustrator/Sketch</h3>
+              <h3>2-5.Photoshop/Illustrator/Sketch</h3>
               <ul class="plugin">
                 <li>Photoshop</li>
                 <li>正直これがあれば全てができます。絵を描くも、写真を加工するも、UIを作るも。</li>
@@ -160,39 +158,6 @@
                 <li>Illustratorと同じでベクターデータです。UIデザインに向いてます。あとPhotoshopに比べて断然に軽いです。</li>
               </ul>
             </div>
-<!--
-            <div class="swiper-slide swiper-slide-gallery">
-              <div class="swiper-container swiper-gallery-top">
-                <div class="slide-title demo-iframe-title">Build Complex Touch Galleries</div>
-                <div class="swiper-wrapper">
-                  <div data-background="http://lorempixel.com/1200/600/nature/1" class="swiper-slide swiper-lazy">
-                    <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                  </div>
-                  <div data-background="http://lorempixel.com/1200/600/nature/2" class="swiper-slide swiper-lazy">
-                    <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                  </div>
-                  <div data-background="http://lorempixel.com/1200/600/nature/3" class="swiper-slide swiper-lazy">
-                    <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                  </div>
-                  <div data-background="http://lorempixel.com/1200/600/nature/4" class="swiper-slide swiper-lazy">
-                    <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                  </div>
-                  <div data-background="http://lorempixel.com/1200/600/nature/5" class="swiper-slide swiper-lazy">
-                    <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-container swiper-gallery-thumbs">
-                <div class="swiper-wrapper">
-                  <div style="background-image:url(http://lorempixel.com/300/200/nature/1)" class="swiper-slide"></div>
-                  <div style="background-image:url(http://lorempixel.com/300/200/nature/2)" class="swiper-slide"></div>
-                  <div style="background-image:url(http://lorempixel.com/300/200/nature/3)" class="swiper-slide"></div>
-                  <div style="background-image:url(http://lorempixel.com/300/200/nature/4)" class="swiper-slide"></div>
-                  <div style="background-image:url(http://lorempixel.com/300/200/nature/5)" class="swiper-slide"></div>
-                </div>
-              </div>
-            </div>
- -->
             <div class="swiper-slide">
               <h2>3.まとめ</h2>
               <p>私が使っているのは</p>
@@ -214,8 +179,16 @@
         </div>
       </div>
     </main>
-    <script src="./js/jquery-1.11.0.min.js"></script>
+
+    <canvas id="canvas-anim"></canvas>
+    <button type="button" class="btn btn-default" id="toggle-background">
+      <span class="glyphicon glyphicon-pause"></span>
+    </button>
+    <script type="text/javascript" src="./js/canvas-anim.js"></script>
+    <div id="progressouter"></div>
+
     <script src="./js/swiper.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/canvas-anim.js"></script>
+    <script src="./js/js.js"></script>
   </body>
 </html>
